@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ef02183-abdf-4bdb-99ac-ec071d96c946" name="Default Changelist" comment="">
+    <list default="true" id="74590e7e-6f9e-437a-a6ab-4c583f0c26fd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ObjectSize.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_ClassFileFormat.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_ClassFileFormat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_ClassLodingLinkingInitializing.md" beforeDir="false" afterPath="$PROJECT_DIR$/02_ClassLodingLinkingInitializing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05_GC and Tuning.md" beforeDir="false" afterPath="$PROJECT_DIR$/05_GC and Tuning.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JVM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/ConstantPoolOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/ConstantPoolOOM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/HeapOOM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/HeapOOM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c0_basic/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c0_basic/T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c0_basic/TestIndentityHashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c0_basic/TestIndentityHashCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T002_ClassLoaderLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T002_ClassLoaderLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T006_MSBClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T006_MSBClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T007_MSBClassLoaderWithEncription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T007_MSBClassLoaderWithEncription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T011_ClassReloading1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T011_ClassReloading1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T012_ClassReloading2$MyLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T012_ClassReloading2$MyLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T012_ClassReloading2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c2_classloader/T012_ClassReloading2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T03_SizeOfAnObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T03_SizeOfAnObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/T04_Disorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/TestHeapDump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/TestHeapDump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/TestSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/c3_jmm/TestSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/cms/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JVM/com/mashibing/jvm/cms/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mashibing/jvm/c2_classloader/T002_ClassLoaderLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/jvm/c2_classloader/T002_ClassLoaderLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mashibing/jvm/c3_jmm/T03_SizeOfAnObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mashibing/jvm/c3_jmm/T03_SizeOfAnObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +55,9 @@
     <setting file="file://$PROJECT_DIR$/src/com/mashibing/jvm/c2_classloader/T010_Parent.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1WMwJ7pZ46JBlYtdonrdzRpwfn6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,11 +73,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JUC" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.34756994" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -67,11 +95,36 @@
       <recent name="C:\work\ijprojects\JVM\src\com\mashibing\jvm\cms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T04_Disorder">
+  <component name="RunManager" selected="Application.DynamicProxyTest">
+    <configuration name="AlwaysHoldLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.lock.AlwaysHoldLock" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.jvm.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.proxy.DynamicProxyTest" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.jvm.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LambdaGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c5_gc.LambdaGC" />
       <module name="JVM" />
-      <option name="VM_PARAMETERS" value="-XX:MaxMetaspaceSize=9M -XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mashibing.jvm.c5_gc.*" />
@@ -82,12 +135,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackOverFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.StackOverFlow" />
+    <configuration name="MethodHandleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.MethodHandleTest" />
       <module name="JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.jvm.*" />
+          <option name="PATTERN" value="com.mashibing.jvm.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTimeConstantPoolOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="jdk_1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.RunTimeConstantPoolOOM" />
+      <module name="JVM" />
+      <option name="VM_PARAMETERS" value="-XX:PermSize=6M -XX:MaxPermSize=6m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.jvm.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T005_LoadClassByHand" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c2_classloader.T005_LoadClassByHand" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.jvm.c2_classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,7 +180,7 @@
     <configuration name="T03_SizeOfAnObject" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c3_jmm.T03_SizeOfAnObject" />
       <module name="JVM" />
-      <option name="VM_PARAMETERS" value="-javaagent:C:\work\ijprojects\ObjectSize\out\artifacts\ObjectSize_jar\ObjectSize.jar -XX:-UseCompressedClassPointers" />
+      <option name="VM_PARAMETERS" value="-javaagent:E:/ObjectSize-1.0-SNAPSHOT.jar -XX:-UseCompressedClassPointers -XX:-UseCompressedOops" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mashibing.jvm.c3_jmm.*" />
@@ -109,39 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T04_Disorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c3_jmm.T04_Disorder" />
+    <configuration name="TestHeapDump" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c3_jmm.TestHeapDump" />
       <module name="JVM" />
+      <option name="VM_PARAMETERS" value="-Xms500M -Xmx500M -XX:+PrintGCDetails -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=&quot;e:/jvm.dump" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mashibing.jvm.c3_jmm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c0_basic.TT" />
-      <module name="JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.jvm.c0_basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTLAB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.c5_gc.TestTLAB" />
-      <module name="JVM" />
-      <option name="VM_PARAMETERS" value="-XX:-DoEscapeAnalysis -XX:-EliminateAllocations -XX:-UseTLAB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.jvm.c5_gc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +207,21 @@
     </configuration>
     <list>
       <item itemvalue="Application.T03_SizeOfAnObject" />
+      <item itemvalue="Application.TestHeapDump" />
+      <item itemvalue="Application.T005_LoadClassByHand" />
+      <item itemvalue="Application.AlwaysHoldLock" />
       <item itemvalue="Application.LambdaGC" />
-      <item itemvalue="Application.StackOverFlow" />
-      <item itemvalue="Application.T04_Disorder" />
-      <item itemvalue="Application.TT" />
-      <item itemvalue="Application.TestTLAB" />
+      <item itemvalue="Application.RunTimeConstantPoolOOM" />
+      <item itemvalue="Application.MethodHandleTest" />
+      <item itemvalue="Application.DynamicProxyTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T04_Disorder" />
-        <item itemvalue="Application.StackOverFlow" />
+        <item itemvalue="Application.DynamicProxyTest" />
+        <item itemvalue="Application.MethodHandleTest" />
+        <item itemvalue="Application.RunTimeConstantPoolOOM" />
         <item itemvalue="Application.LambdaGC" />
-        <item itemvalue="Application.TestTLAB" />
-        <item itemvalue="Application.TT" />
+        <item itemvalue="Application.AlwaysHoldLock" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +242,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9ef02183-abdf-4bdb-99ac-ec071d96c946" name="Default Changelist" comment="" />
+      <changelist id="74590e7e-6f9e-437a-a6ab-4c583f0c26fd" name="Default Changelist" comment="" />
       <created>1561013618757</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561013618757</updated>
       <workItem from="1578972713289" duration="598000" />
       <workItem from="1579503886937" duration="9566000" />
+      <workItem from="1581307409192" duration="170000" />
+      <workItem from="1581307631464" duration="6080000" />
+      <workItem from="1581384576156" duration="3512000" />
+      <workItem from="1581735810067" duration="2488000" />
+      <workItem from="1581864340776" duration="597000" />
+      <workItem from="1582101686868" duration="985000" />
+      <workItem from="1582102903670" duration="3709000" />
+      <workItem from="1582721925957" duration="18000" />
+      <workItem from="1582795300842" duration="12360000" />
+      <workItem from="1582944880873" duration="1806000" />
+      <workItem from="1582964912443" duration="5444000" />
     </task>
     <task id="LOCAL-00001" summary="更新markdown资料与图片">
       <created>1572139204079</created>
@@ -287,104 +356,154 @@
     <option name="LAST_COMMIT_MESSAGE" value="第八课" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1579526524531">
+    <state x="361" y="79" key="#Project_Structure" timestamp="1582853524726">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1579526524531" />
-    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1578925477351">
+    <state x="361" y="79" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1582853524726" />
+    <state x="458" y="123" key="#TestHeapDump" timestamp="1581227988832">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1578925477351" />
-    <state x="272" y="62" key="SettingsEditor" timestamp="1579526338722">
+    <state x="458" y="123" key="#TestHeapDump/0.0.1536.834@0.0.1536.834" timestamp="1581227988832" />
+    <state x="165" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582853721918">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="272" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1579526338722" />
-    <state x="457" y="172" width="621" height="490" key="find.popup" timestamp="1579526401374">
+    <state x="165" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582853721918" />
+    <state x="634" y="251" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1581228067178">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="457" y="172" width="621" height="490" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1579526401374" />
-    <state x="479" y="219" key="git4idea.merge.GitPullDialog" timestamp="1580460021560">
+    <state x="634" y="251" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.834@0.0.1536.834" timestamp="1581228067178" />
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1582876863468">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="479" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1580460021560" />
-    <state x="178" y="125" key="new project wizard" timestamp="1579585124958">
+    <state x="574" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582876863468" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1581226452333">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="178" y="125" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1579585124958" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1581226452333" />
+    <state x="503" y="156" key="FileChooserDialogImpl" timestamp="1582964977931">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="503" y="156" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582964977931" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1582877780323">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582877780323" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1582877780322">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582877780322" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1582877780322">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582877780322" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1582877780322">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582877780322" />
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom" timestamp="1582877584580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582877584580" />
+    <state width="1493" height="254" key="GridCell.Tab.1.center" timestamp="1582877584580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582877584580" />
+    <state width="1493" height="254" key="GridCell.Tab.1.left" timestamp="1582877584580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582877584580" />
+    <state width="1493" height="254" key="GridCell.Tab.1.right" timestamp="1582877584580">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582877584580" />
+    <state width="1493" height="254" key="GridCell.Tab.2.bottom" timestamp="1582877584581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582877584581" />
+    <state width="1493" height="254" key="GridCell.Tab.2.center" timestamp="1582877584581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1582877584581" />
+    <state width="1493" height="254" key="GridCell.Tab.2.left" timestamp="1582877584581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1582877584581" />
+    <state width="1493" height="254" key="GridCell.Tab.2.right" timestamp="1582877584581">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="254" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1582877584581" />
+    <state x="535" y="130" key="RollbackChangesDialog" timestamp="1581304945042">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="535" y="130" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581304945042" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1582871710985">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582871710985" />
+    <state x="490" y="159" width="540" height="524" key="StructurePopup" timestamp="1581165674823">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1581165674823" />
+    <state width="829" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1583115526097">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="829" height="832" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1536.834@0.0.1536.834" timestamp="1583115526097" />
+    <state x="499" y="168" width="621" height="490" key="find.popup" timestamp="1582876380501">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="168" width="621" height="490" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1582876380501" />
+    <state x="479" y="219" key="git4idea.merge.GitPullDialog" timestamp="1580460267741">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="479" y="219" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1580460267741" />
+    <state x="178" y="0" key="new project wizard" timestamp="1582878688167">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1582878688167" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1583119817397">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1583119817397" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JVM</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>ObjectSize</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Scanner.java</url>
+          <line>1670</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Scanner.java</url>
+          <line>999</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Scanner.java</url>
+          <line>1361</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Scanner.java</url>
+          <line>901</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mashibing/jvm/MethodHandleTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mashibing/jvm/MethodHandleTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/mashibing/jvm/proxy/DynamicProxyTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -29,7 +29,7 @@
 #### 3.常见的垃圾回收算法
 
 1. 标记清除(mark sweep) - 位置不连续 产生碎片 效率偏低（两遍扫描）
-2. 拷贝算法 (copying) - 没有碎片，浪费空间
+2. 拷贝算法 (copying) - 没有碎片，浪费空间，指针需要调整
 3. 标记压缩(mark compact) - 没有碎片，效率偏低（两遍扫描，指针需要调整）
 
 #### 4.JVM内存分代模型（用于分代垃圾回收算法）
@@ -448,20 +448,43 @@ jhat -J-mx512M xxx.dump
 
 * 为什么需要在线排查？
    在生产上我们经常会碰到一些不好排查的问题，例如线程安全问题，用最简单的threaddump或者heapdump不好查到问题原因。为了排查这些问题，有时我们会临时加一些日志，比如在一些关键的函数里打印出入参，然后重新打包发布，如果打了日志还是没找到问题，继续加日志，重新打包发布。对于上线流程复杂而且审核比较严的公司，从改代码到上线需要层层的流转，会大大影响问题排查的进度。 
+   
 * jvm观察jvm信息
-* thread定位线程问题
-* dashboard 观察系统情况
-* heapdump + jhat分析
-* jad反编译
+
+* thread定位线程问题->jstack -l pid
+
+* dashboard 观察系统情况  ->top 、top -Hp
+
+* heapdump + jhat分析 -> jmap -dump:format=b,file=xxx pid    jhat -J-mx512m xxx
+
+* jad反编译 -> javap -p -verbose -l
    动态代理生成类的问题定位
    第三方的类（观察代码）
    版本问题（确定自己最新提交的版本是不是被使用）
+   
 * redefine 热替换
    目前有些限制条件：只能改方法实现（方法已经运行完成），不能改方法名， 不能改属性
    m() -> mm()
+   
+* stack className methodname   查看方法的调用堆栈：
+   
+* trace className methodname 查看方法的子调用的耗时
+   
+* classloader 查看类加载器以及加载的实例数
+   
 * sc  - search class
+
 * watch  - watch method
+
 * 没有包含的功能：jmap
+
+   Arthas手册：
+
+1. 启动arthas java -jar arthas-boot.jar
+2. 绑定java进程
+3. dashboard命令观察系统整体情况
+4. help 查看帮助
+5. help xx 查看具体命令帮助
 
 ### GC算法的基础概念
 
@@ -728,30 +751,48 @@ OOM产生的原因多种多样，有些程序未必产生OOM，不断FGC(CPU飙�
 ### Parallel常用参数
 
 * -XX:SurvivorRatio
+
 * -XX:PreTenureSizeThreshold
   大对象到底多大
+  
 * -XX:MaxTenuringThreshold
+
+  升代年龄，最大值15
+
 * -XX:+ParallelGCThreads
   并行收集器的线程数，同样适用于CMS，一般设为和CPU核数相同
+  
 * -XX:+UseAdaptiveSizePolicy
   自动选择各区大小比例
 
 ### CMS常用参数
 
 * -XX:+UseConcMarkSweepGC
+
+* -XX:MaxTenuringThreshold
+
+  升代年龄，最大值15，默认值6
+
 * -XX:ParallelCMSThreads
   CMS线程数量
+  
 * -XX:CMSInitiatingOccupancyFraction
   使用多少比例的老年代后开始CMS收集，默认是68%(近似值)，如果频繁发生SerialOld卡顿，应该调小，（频繁CMS回收）
+  
 * -XX:+UseCMSCompactAtFullCollection
   在FGC时进行压缩
+  
 * -XX:CMSFullGCsBeforeCompaction
   多少次FGC之后进行压缩
+  
 * -XX:+CMSClassUnloadingEnabled
+
 * -XX:CMSInitiatingPermOccupancyFraction
   达到什么比例时进行Perm回收
+  
 * GCTimeRatio
   设置GC时间占用程序运行时间的百分比
+  
 * -XX:MaxGCPauseMillis
   停顿时间，是一个建议时间，GC会尝试用各种手段达到这个时间，比如减小年轻代
 
@@ -834,7 +875,7 @@ OOM产生的原因多种多样，有些程序未必产生OOM，不断FGC(CPU飙�
 
       1. 扩内存
       2. 提高CPU性能（回收的快，业务逻辑产生对象的速度固定，垃圾回收越快，内存空间越大）
-      3. 降低MixedGC触发的阈值，让MixedGC提早发生（默认是45%）
+      3. 降低MixedGC触发的阈值，让MixedGC提早发生（默认是45%），相当于CMS的回收过程
 
  18. 问：生产环境中能够随随便便的dump吗？
      小堆影响不大，大堆会有服务暂停或卡顿（加live可以缓解），dump前会有FGC
@@ -852,12 +893,6 @@ OOM产生的原因多种多样，有些程序未必产生OOM，不断FGC(CPU飙�
 4. JVM调优参考文档：https://docs.oracle.com/en/java/javase/13/gctuning/introduction-garbage-collection-tuning.html#GUID-8A443184-7E07-4B71-9777-4F12947C8184 
 5. https://www.cnblogs.com/nxlhero/p/11660854.html 在线排查工具
 6. https://www.jianshu.com/p/507f7e0cc3a3 arthas常用命令
-7. Arthas手册：
-   1. 启动arthas java -jar arthas-boot.jar
-   2. 绑定java进程
-   3. dashboard命令观察系统整体情况
-   4. help 查看帮助
-   5. help xx 查看具体命令帮助
 8. jmap命令参考： https://www.jianshu.com/p/507f7e0cc3a3 
    1. jmap -heap pid
    2. jmap -histo pid

@@ -15,7 +15,8 @@
       
             –虚拟机启动时，被执行的主类必须初始化
       
-            –动态语言支持java.lang.invoke.MethodHandle解析的结果为REF_getstatic REF_putstatic REF_invokestatic的方法句柄时，该类必须初始化
+            –动态语言支持java.lang.invoke.
+            MethodHandle解析的结果为REF_getstatic REF_putstatic REF_invokestatic的方法句柄时，该类必须初始化
       
       3. ClassLoader的源码
       
